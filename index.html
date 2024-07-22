@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizzyy</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="home">
+      <h1>Welcome to Quizzyy</h1>
+      <button id="startQuiz"> Start Quiz</button>
+    </div>
+    <div class="quiz-section" id="quizSection" style="display: none;">
+      <div id="quiz">
+        <h2 class="question" id="question">Quiz question</h2>
+        <hr />
+        <ul>
+          <li>
+            <input type="radio" name="answer" class="answer" id="a" />
+            <label for="a" id="option_1">Quiz option</label>
+          </li>
+          <li>
+            <input type="radio" name="answer" class="answer" id="b" />
+            <label for="b" id="option_2">Quiz option</label>
+          </li>
+          <li>
+            <input type="radio" name="answer" class="answer" id="c" />
+            <label for="c" id="option_3">Quiz option</label>
+          </li>
+          <li>
+            <input type="radio" name="answer" class="answer" id="d" />
+            <label for="d" id="option_4">Quiz option</label>
+          </li>
+          
+        </ul>
+        <hr>
+        <div class="btn">
+          <button type="button" id="previous">Previous</button>
+          <button type="submit" id="submit">Next</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
